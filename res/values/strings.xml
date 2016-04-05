@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Psychologist_App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">Home</string>
+     <string name="purchases">Purchases</string>
+      <string name="notification">Notifications</string>
+       <string name="my_profile">My Profile</string>
+        <string name="my_messages">My Messages</string>
+         <string name="other_service">Other Services</string>
+         <string name="logout">Log out</string>
+          <string name="thanks_string">Thank you for registering with us.</string>
+          <string name="emailthank_string">Please login using credentials sent on your registered email address</string>
+        <string name="terms">Please read the T &amp; C before proceeding</string>
+         <string-array name="id_Array">
+        <item>Pan Number</item>
+        <item>Adhaar Number</item>
+        <item>Passport Number</item>
+        <item>Voter Id</item>
+        <item>Driving Licence Number</item>
+        </string-array>
+</resources>

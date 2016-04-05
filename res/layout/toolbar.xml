@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:id="@+id/header_layout"
+    android:background="@color/header_background" >
+    <ImageView
+        android:id="@+id/menu_button"
+        android:layout_width="40dp"
+        android:visibility="gone"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+         android:src="@drawable/menu_bar" />
+
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+       
+</RelativeLayout>
